@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-div{
+    width: 100%;
+    height: 21vh;
+    background-color: white;
+    position: fixed;
+}
+.set1{
+    width: 100%;
+    height: 15vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+.set2{
+    width: 100%;
+    height: 6vh;
+    /* background-color: gold; */
+    /* display: flex; */
+    display: flex;
+}
+.group1 img{
+    width: 60%;
+    height: 7vh;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+.group1{
+    display: flex;
+    width: 53%;
+    height: 12vh;
+    /* background-color: red; */
+}
+.input{
+    width: 300%;
+    height: 7vh;
+    border: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+/* background-color: rgba(128, 128, 128, 0.511); */
+margin-top: 25px;
+    margin-left: 10px;
+}
+.group2{
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 15px;
+    /* border-left: 30px; */
+    border-right: 2px solid grey;
+}
+.group2 p{
+    font-size: 20px;
+    color: grey;
+}
+.group2 p:hover{
+    font-size: 20px;
+    color: black;
+}
+.group3{
+    display: flex;
+    margin-left: 25px;
+    gap: 15px;
+    margin-top: 30px;
+}
+.log-in{
+    width: 88px;
+}
+.group3 p{
+    font-size: 20px;
+    color: grey;
+}
+.group3 p:hover{
+    font-size: 20px;
+    color: black;
+}
+.submit{
+    width: 150%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.384);
+}
+.submit:hover{
+    width: 150%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.line{
+    margin-left: 35px;
+    margin-top: 5px;
+    
+}
+.GROUP1{
+    display: flex;
+    width: 200px;
+    height: 6vh;
+    /* background-color: bisque; */
+    padding-left: 20px;
+    justify-content: space-between;
+    border-right: 2px solid rgba(128, 128, 128, 0.5) ;
+}
+.GROUP1 p{
+    font-size: 17px;
+    color: grey;
+}
+.GROUP1 p:hover{
+    font-size: 17px;
+    color: black;
+}
+.GROUP2{
+    width: 950px;
+    height: 6vh;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.GROUP2-content{
+    font-size: 17px;
+    color: grey;
+}
+.GROUP2-content:hover{
+    font-size: 17px;
+    color: black;
+}
+.home-page{
+    width: 100%;
+    height: 80vh;
+    /* background-color: darkblue; */
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 15px;
+    display: flex;
+}
+.first-set{
+    width: 38%;
+    height: 50vh;
+    padding-top: 100px;
+    /* background-color: antiquewhite; */
+}
+.Search-img{
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(128, 128, 128, 0.188);
+    border-radius: 10px;
+
+}
+.Search-img img{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.Search-img input{
+    height: 4vh;
+    width: 91%;
+    margin-top: 0px;
+    border:2px solid rgba(128, 128, 128, 0);
+    background-color:rgba(128, 128, 128, 0);
+}
+.second-set{
+    width: 30%;
+    height: 43vh;
+    background-color: rgba(128, 128, 128, 0.294);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.text{
+    padding: 20px 20px;
+    font-size: 25px;
+}
+.learn{
+    color: grey;
+    font-size: 20px;
+}
+.learn-div{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.third-set{
+    width: 30%;
+    height: 43vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.discover-unsplash{
+    color: white;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.unlimited-download{
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.awards-2023{
+    background-color: black;
+    width: 96%;
+    height: 25vh;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 30px;
+}
+.Unsplash-heading{
+    color: white;
+    font-size: 30px;
+}
+.Unsplash-text{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.txt-img{
+    display: flex;
+    margin-left: 400px;
+}
+.txt-img img{
+    margin-top: 3px;
+    
+}
+.learnmore{
+    color: white;
+    font-size: 20px;
+}
+.grid-items{
+    column-count: 3;
+    column-gap: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 55px;
+}
+.grid-items img{
+    width: 90%;
+}
+
